@@ -60,7 +60,7 @@ export const LabIntro = () => {
           </div>
           
           <div className="md:max-w-4xl">
-            <p className={cn("md:text-left text-center text-2xl leading-relaxed", tiaraFont.className)}>
+            <p className={cn("md:text-left text-center text-xs md:text-2xl leading-relaxed", tiaraFont.className)}>
               Sanskriti is a celebration of hope. The very word &#40;origin
               Sanskrit: Sanskaar&#41; contains a hint of mending, and reconstruction
               and is a relentless effort towards upliftment and perfection. From its

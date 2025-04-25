@@ -5,7 +5,7 @@ import { tiaraFont } from "@/lib/fonts";
 
 const Sponsors2 = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-[#0E0E0E] py-10">
+    <div className="min-h-screen flex flex-col justify-center items-center py-10">
       <div
         className={cn(
           "text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl w-fit text-center duration-500 mb-8",

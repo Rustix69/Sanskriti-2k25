@@ -25,20 +25,6 @@ const performances = [
     performer: "Girish and The Chronicles",
     image: "/performances/catc.jpeg",
     isImageOnly: true
-  },
-  {
-    date: "12/4/25",
-    event: "Reunion Night",
-    performer: "Agnee",
-    image: "/performances/agnee.jpeg",
-    isImageOnly: true
-  },
-  {
-    date: "13/4/25",
-    event: "Final Night",
-    performer: "Agam",
-    image: "/performances/agam.jpeg",
-    isImageOnly: true
   }
 ];
 
@@ -72,11 +58,6 @@ export function Sponsers() {
                     className="rounded-xl object-cover w-[300px] h-[300px]"
                     priority
                   />
-                  <div className="mt-4 text-center">
-                    <h2 className="text-xl font-bold text-white">{performance.date}</h2>
-                    <h3 className="text-lg text-[#F59E0B] font-semibold">{performance.event}</h3>
-                    <p className="text-xl text-white font-bold">{performance.performer}</p>
-                  </div>
                 </div>
               );
             }
